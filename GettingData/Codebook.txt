@@ -1,0 +1,298 @@
+DATA DICTIONARY FOR tidydataforGettingData
+
+
+subject				1
+           integer value ranging from 1-30
+				unique identifier for subjects participating in study
+
+activity	 			1
+	character  identifier for activity type
+				WALKING
+				WALKING_UPSTAIRS
+				WALKING_DOWNSTAIRS
+				SITTING
+				STANDING
+				LAYING
+
+TimeBodyAccMeanXAxis	1
+	time domain measurement of mean body acceleration about x-axis of device
+				numeric
+
+TimeBodyAccMeanYAxis	1
+	time domain measurement of mean body acceleration about y-axis of device
+				numeric
+
+TimeBodyAccMeanZAxis	1
+	time domain measurement of mean body acceleration about z-axis of device
+				numeric
+
+TimeBodyAccStdDevXAxis	1
+	time domain measurement of standard deviation body acceleration about x-	axis 
+				numeric
+
+TimeBodyAccStdDevYAxis	1
+	time domain measurement of standard deviation body acceleration about y-	axis 
+				numeric
+
+TimeBodyAccStdDevZAxis	1
+	time domain measurement of standard deviation body acceleration about z-	axis 
+				numeric
+
+TimeGravityAccMeanXAxis	1
+      time domain measurement of mean gravitational acceleration about x-axis
+				numeric
+
+TimeGravityAccMeanYAxis	1
+      time domain measurement of mean gravitational acceleration about y-axis
+				numeric
+
+TimeGravityAccMeanZAxis	1
+      time domain measurement of mean gravitational acceleration about z-axis
+				numeric
+
+TimeGravityAccStdDevXAxis	1
+	time domain measurement of standard deviation of gravitational 	acceleration about x-axis
+				numeric
+
+TimeGravityAccStdDevYAxis	1
+	time domain measurement of standard deviation of gravitational 	acceleration about y-axis
+      			numeric
+
+TimeGravityAccStdDevZAxis	1
+	time domain measurement of standard deviation of gravitational 	acceleration about z-axis
+				numeric
+
+TimeBodyAccJerkMeanXAxis	1
+	time domain measurement of mean body jerk about x-axis 
+				numeric
+
+TimeBodyAccJerkMeanYAxis	1
+	time domain measurement of mean body jerk about y-axis 
+				numeric
+
+TimeBodyAccJerkMeanZAxis	1
+	time domain measurement of mean body jerk about z-axis 
+				numeric
+
+TimeBodyAccJerkStdDevXAxis	1
+	time domain measurement of standard deviation of body jerk about x-axis 
+				numeric
+
+TimeBodyAccJerkStdDevYAxis	1
+	time domain measurement of standard deviation of body jerk about y-axis 
+				numeric
+
+TimeBodyAccJerkStdDevZAxis	1
+	time domain measurement of standard deviation of body jerk about z-axis 
+				numeric
+
+
+TimeBodyGyroMeanXAxis	1
+      time domain measurement of mean body angular velocity about x-axis of gyro
+				numeric
+
+TimeBodyGyroMeanYAxis	1
+      time domain measurement of mean body angular velocity about y-axis of gyro
+				numeric
+
+TimeBodyGyroMeanZAxis	1
+      time domain measurement of mean body angular velocity about z-axis of gyro
+				numeric
+
+TimeBodyGyroStdDevXAxis	1
+	time domain measurement of standard deviation body angular velocity about 	x-axis of gyro
+				numeric
+
+
+TimeBodyGyroStdDevYAxis	1
+	time domain measurement of standard deviation body angular velocity about 	y-axis of gyro
+				numeric
+
+TimeBodyGyroStdDevZAxis	1
+	time domain measurement of standard deviation body angular velocity about 	z-axis of gyro
+				numeric
+
+TimeBodyGyroJerkMeanXAxis	1
+      time domain measurement of mean body angular jerk about x-axis of gyro
+				numeric
+
+TimeBodyGyroJerkMeanYAxis	1
+      time domain measurement of mean body angular jerk about y-axis of gyro
+				numeric
+
+TimeBodyGyroJerkMeanZAxis	1
+      time domain measurement of mean body angular jerk about z-axis of gyro
+				numeric
+
+TimeBodyGyroJerkStdDevXAxis	1
+	time domain measurement of standard deviation of body angular jerk about 	x-axis of gyro
+				numeric
+
+TimeBodyGyroJerkStdDevYAxis	1
+	time domain measurement of standard deviation of body angular jerk about 	y-axis of gyro
+				numeric
+
+TimeBodyGyroJerkStdDevZAxis	1
+	time domain measurement of standard deviation of body angular jerk about 	z-axis of gyro
+				numeric
+
+TimeBodyAccMagMean	1
+	time domain measurement of mean of magnitude of body acceleration 
+				numeric
+
+TimeBodyAccMagStdDev	1
+	time domain measurement of standard deviation of magnitude of body 
+	acceleration 
+				numeric
+
+
+TimeGravityAccMagMean	1
+	time domain measurement of mean of magnitude of gravitational acceleration 
+				numeric
+
+TimeGravityAccMagStdDev	1
+	time domain measurement of standard deviation of magnitude of 	gravitational acceleration 
+				numeric
+
+
+TimeBodyAccJerkMagMean	1
+	time domain measurement of mean of magnitude of body jerk 
+				numeric
+
+TimeBodyAccJerkMagStdDev	1
+	time domain measurement of standard deviation of magnitude of body jerk 
+				numeric
+
+TimeBodyGyroMagMean	1
+	time domain measurement of mean of magnitude of angular acceleration of 	gyro 
+				numeric
+
+TimeBodyGyroMagStdDev	1
+	time domain measurement of standard deviation of magnitude of angular 	velocity of body
+				numeric
+
+
+TimeBodyGyroJerkMagMean	1
+	time domain measurement of standard deviation of magnitude of body angular 
+	jerk 
+				numeric
+
+TimeBodyGyroJerkMagStdDev	1
+	time domain measurement of standard deviation of magnitude of body angular 
+	jerk 
+				numeric
+
+FrequencyBodyAccMeanXAxis	1
+      frequency domain measurement of mean body acceleration about x-axis of 	device
+				numeric
+
+FrequencyBodyAccMeanYAxis	1
+      frequency domain measurement of mean body acceleration about y-axis of 	device
+				numeric
+
+FrequencyBodyAccMeanZAxis	1 
+      frequency domain measurement of mean body acceleration about z-axis of 	device
+				numeric
+
+FrequencyBodyAccStdDevXAxis	1
+	frequency domain measurement of standard deviation of body acceleration 	about x-axis of device
+				numeric
+
+FrequencyBodyAccStdDevYAxis	1
+	frequency domain measurement of standard deviation of body acceleration 	about y-axis of device
+				numeric
+
+FrequencyBodyAccStdDevZAxis	1
+	frequency domain measurement of standard deviation of body acceleration 	about z-axis of device
+				numeric
+
+FrequencyBodyAccJerkMeanXAxis	1
+      frequency domain measurement of mean body jerk about x-axis of device
+				numeric
+
+FrequencyBodyAccJerkMeanYAxis	1
+      frequency domain measurement of mean body jerk about y-axis of device
+				numeric
+
+
+FrequencyBodyAccJerkMeanZAxis	1
+      frequency domain measurement of mean body jerk about z-axis of device
+				numeric
+
+
+FrequencyBodyAccJerkStdDevXAxis	1
+	frequency domain measurement of standard deviation of body jerk about x-	axis of device
+				numeric
+
+FrequencyBodyAccJerkStdDevYAxis	1
+	frequency domain measurement of standard deviation of body jerk about x-	axis of device
+				numeric
+
+FrequencyBodyAccJerkStdDevZAxis	1
+	frequency domain measurement of standard deviation of body jerk about x-	axis of device
+				numeric
+
+FrequencyBodyGyroMeanXAxis	1
+      frequency domain measurement of mean body angular velocity about x-axis 	of device
+				numeric
+
+FrequencyBodyGyroMeanYAxis	1
+      frequency domain measurement of mean body angular velocity about y-axis of 
+      device
+				numeric
+
+FrequencyBodyGyroMeanZAxis	1
+      frequency domain measurement of mean body angular velocity about z-axis of 
+      device
+				numeric
+
+FrequencyBodyGyroStdDevXAxis	1
+	frequency domain measurement of standard deviation of body angular 	velocity about x-axis of device
+				numeric
+
+FrequencyBodyGyroStdDevYAxis	1
+	frequency domain measurement of standard deviation of body angular 	velocity about y-axis of device
+				numeric
+
+
+FrequencyBodyGyroStdDevZAxis	1
+	frequency domain measurement of standard deviation of body angular 	velocity about z-axis of device
+				numeric
+
+FrequencyBodyAccMagMean	1
+       frequency domain measurement of mean of body acceleration magnitude of 
+       device
+				numeric
+
+FrequencyBodyAccMagStdDev	1
+       frequency domain measurement of standard deviation of body acceleration 
+       magnitude of device
+				numeric
+      
+FrequencyBodyAccJerkMagMean	1
+       frequency domain measurement of mean of body jerk magnitude of device
+				numeric
+
+FrequencyBodyAccJerkMagStdDev	1
+	frequency domain measurement of standard deviation of body jerk magnitude 	of device
+				numeric
+
+FrequencyBodyGyroMagMean	1
+      frequency domain measurement of mean of body angular velocity magnitude 	of gyro
+				numeric
+
+FrequencyBodyGyroMagStdDev	1
+	frequency domain measurement of standard deviation of body angular 	velocity magnitude of gyro
+				numeric
+
+FrequencyBodyGyroJerkMagMean	1
+	frequency domain measurement of mean of body angular jerk magnitude of 	gyro
+				numeric
+
+FrequencyBodyGyroJerkMagStdDev	1 
+       frequency domain measurement of standard deviation of body angular jerk 
+       magnitude of gyro
+				numeric
+
+
+
